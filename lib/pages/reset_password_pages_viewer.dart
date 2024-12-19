@@ -43,24 +43,24 @@ class _ResetPasswordPagesViewerState extends State<ResetPasswordPagesViewer> {
             ],
           ),
           // Dot indicators
-          // Container(
-          //   alignment: const Alignment(0, 0.85),
-          //   child: Padding(
-          //     padding: const EdgeInsets.only(left: 15.0, right: 15.0),
-          //     child: SmoothPageIndicator(
-          //       controller: _controller,
-          //       count: 3,
-          //       effect: const SlideEffect(
-          //         activeDotColor: Color.fromARGB(255, 237, 0, 51),
-          //         dotColor: Colors.black,
-          //         dotWidth: 50.0,
-          //         dotHeight: 5.0,
-          //         radius: 2.0,
-          //         spacing: 65.0,
-          //       ),
-          //     ),
-          //   ),
-          // ),
+          Container(
+            alignment: const Alignment(0, 0.85),
+            child: Padding(
+              padding: const EdgeInsets.only(left: 15.0, right: 15.0),
+              child: SmoothPageIndicator(
+                controller: _controller,
+                count: 3,
+                effect: const SlideEffect(
+                  activeDotColor: Color.fromARGB(255, 237, 0, 51),
+                  dotColor: Colors.black,
+                  dotWidth: 50.0,
+                  dotHeight: 5.0,
+                  radius: 2.0,
+                  spacing: 65.0,
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
